@@ -61,7 +61,7 @@ this repo (tens of GB). Download them from the original project and arrange as:
 ```
 Dataset/
 ├─ videos/{train,test}/{Accident,NonAccident}/*.mp4
-├─ features/{training,testing}/batch_XXX.npz   (authors' reference features)
+├─ features/{train,test}/batch_XXX.npz   (authors' reference features)
 └─ annotation/*.txt                            (accident videos only)
 ```
 
