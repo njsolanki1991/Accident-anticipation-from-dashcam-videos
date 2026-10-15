@@ -40,8 +40,6 @@ learning/     step-by-step Jupyter notebooks (the walkthrough)
   04_frame_to_slots.ipynb    one frame → (20, 4096)
   05_video_to_tensor.ipynb   one video → (100, 20, 4096)
   06_build_npz.ipynb         videos + labels → batch_001.npz
-reference/    consolidated pipeline package + CLI runner
-view_npz.py   inspect any .npz file
 dataset.txt   dataset layout notes
 ```
 
@@ -73,14 +71,9 @@ Dataset/
 
 ## How to run
 
-**Learn it:** open the notebooks in `learning/` and run them in order.
-
-**Generate features for real:**
-```bash
-python reference/build_features.py --split test
-```
-Output goes to `Dataset/features_generated/` (the authors' files are never
-overwritten).
+Open the notebooks in `learning/` and run them in order (01 → 06). Notebook 06
+produces a `batch_001.npz` under `Dataset/features_generated/` — the authors'
+reference files are never overwritten.
 
 ## Citation
 
