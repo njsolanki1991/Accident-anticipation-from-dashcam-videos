@@ -1,0 +1,9 @@
+Videos > train > Accident > 11 to 455
+Videos > train > NonAccident > 1 to 829
+Videos > test > Accident > 456 to 620
+Videos > test > NonAccident > 830 to 1130
+
+features > train > batch_001.npz to batch_128.npz
+features > test > batch_001.npz to batch_046.npz
+
+annotation > 1 to 620

@@ -1,0 +1,11 @@
+# Feature-creation pipeline (Phase A) dependencies
+numpy==1.26.4
+opencv-python==4.10.0.84
+torch==1.13.1
+torchvision==0.14.1
+matplotlib==3.9.2
+
+# For running the learning notebooks
+jupyterlab==4.2.5
+notebook==7.2.2
+ipykernel==6.29.5
