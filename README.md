@@ -41,9 +41,16 @@ learning/     step-by-step Jupyter notebooks (the walkthrough)
   05_video_to_tensor.ipynb   one video → (100, 20, 4096)
   06_build_npz.ipynb         videos + labels → batch_XXX.npz (5 accident + 5 non)
   06_build_npz_kaggle.ipynb  GPU version for unattended runs on Kaggle
+  07_compare_npz.ipynb       compare generated vs author features (faithfulness)
+  08_build_npz_mobilenet.ipynb  extension: MobileNetV2 features (1280-d)
+  09_build_npz_inception.ipynb  extension: InceptionV3 features (2048-d)
   view_npz.ipynb             inspect any .npz batch and its labels
 dataset.txt   dataset layout notes
 ```
+
+Steps 8-9 are an optional backbone-comparison extension: they produce features of a
+different dimension (1280 / 2048), which require retraining the model with a matching
+input size and are not compatible with the author's pretrained 4096-d weights.
 
 ## Setup
 
