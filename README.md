@@ -39,7 +39,9 @@ learning/     step-by-step Jupyter notebooks (the walkthrough)
   03_vgg_features.ipynb      crop → 4096 features (VGG-16)
   04_frame_to_slots.ipynb    one frame → (20, 4096)
   05_video_to_tensor.ipynb   one video → (100, 20, 4096)
-  06_build_npz.ipynb         videos + labels → batch_001.npz
+  06_build_npz.ipynb         videos + labels → batch_XXX.npz (5 accident + 5 non)
+  06_build_npz_kaggle.ipynb  GPU version for unattended runs on Kaggle
+  view_npz.ipynb             inspect any .npz batch and its labels
 dataset.txt   dataset layout notes
 ```
 
