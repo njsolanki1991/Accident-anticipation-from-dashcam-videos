@@ -40,7 +40,6 @@ learning/     step-by-step Jupyter notebooks (the walkthrough)
   04_frame_to_slots.ipynb    one frame → (20, 4096)
   05_video_to_tensor.ipynb   one video → (100, 20, 4096)
   06_build_npz.ipynb         videos + labels → batch_XXX.npz (5 accident + 5 non)
-  06_build_npz_kaggle.ipynb  GPU version for unattended runs on Kaggle
   07_compare_npz.ipynb       compare generated vs author features (faithfulness)
   08_build_npz_mobilenet.ipynb  extension: MobileNetV2 features (1280-d)
   09_build_npz_inception.ipynb  extension: InceptionV3 features (2048-d)
