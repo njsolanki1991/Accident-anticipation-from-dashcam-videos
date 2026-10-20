@@ -31,5 +31,4 @@ Thumbs.db
 # ---- kept local only, not published ----
 reference/
 view_npz.py
-Kaggle/
-kaggle/
+author_code/
